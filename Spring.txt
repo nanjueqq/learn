@@ -1,0 +1,15 @@
+Spring
+
+IoC/DI：文章 http://www.ibm.com/developerworks/cn/java/wa-spring1/
+Bean生命周期（bean设置细节）
+bean注入方式？
+为何要使用spring？
+
+
+简单设计模式：工厂模式、单例模式、适配器模式、构造器模式（建造者模式），写程序使用上述设计模式
+
+jdk各个版本区别＊
+
+再次强调ArrayList, LinkedList, HashMap, ConcurrentHashMap的定义和使用
+
+GC知识点，什么样的对象会被gc？gc发生在什么时候？程序是否可以控制gc？
