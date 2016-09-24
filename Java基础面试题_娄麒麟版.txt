@@ -1,0 +1,60 @@
+int a = xxx;
+int b = yyy;
+int c = a + b;
+
+Question:
+上述代码有没有可能出错，如果出错如何解决？
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+String a = "abc";
+String b = "abc";
+String c = new String("abc");
+
+int intA = 10;
+int intB = 10;
+Integer iA = new Integer("10");
+Integer iB = new Integer("10");
+
+String d = "ABC";
+Question1:
+a == b
+a.equals(b);
+a == c
+a.equals(c);
+intA == intB;
+iA == iB;
+iA.equals(iB);
+a.equals(d);
+分别返回什么值？
+=＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+1)String a = "abc";
+2)String b = "abc";
+3)String c = new String("abc");
+4)String d = a + b;
+5)String e = a + c;
+
+Question:
+执行语句1,2,4时内存中有几个相关对象？
+执行语句1,3,5后内存中又有几个相关对象？
+====================================================
+
+父类的哪些属性和方法可以被子类所继承？
+默认访问权限控制的方法和属性可否被子类继承？
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+子类中想要访问父类方法该怎么办？
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+如何判断一个对象是不是某个类的实例？
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+String a = null;
+String b = "abc";
+
+Question:
+a.equals(b);
+上述语句会不会报错？如果出错该如何修改？
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+String和日期类型互相转换
